@@ -49,11 +49,11 @@ The swap memory method in use is Zram. You can examine the swap memory informati
 
 # Install packages
 
-### install `zsh`, `git` and `curl`
+#### install `zsh`, `git` and `curl`
 
     sudo apt install zsh git curl
----    
-### install `oh my zsh` with `curl`
+   
+install `oh my zsh` with `curl`
 
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
      
@@ -69,11 +69,18 @@ add plugins in `.zshrc`
 
     nano ~/.zshrc
     
-find `plugins=(git)`, edit to `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`.
+>find `plugins=(git)`, edit to `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)`
+<br>find `ZSH_THEME="shit"`, edit to `ZSH_THEME="eastwood"`
+
+Set `zsh` system default shell
+
+    sudo chsh -s /bin/zsh jetson
+
+>**reboot**
 
 >[*more information*](https://gist.github.com/dogrocker/1efb8fd9427779c827058f873b94df95)
 ---
-### install vscode 
+#### install vscode 
 
 downlaod [vscode](https://code.visualstudio.com/download), get `.deb` file for `Arm64`.
 
