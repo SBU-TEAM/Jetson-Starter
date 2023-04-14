@@ -8,6 +8,7 @@
 * [Install packages](https://github.com/SBU-TEAM/Jetson-Starter/blob/master/README.md#install-packages)
 * [Setup VNC](https://github.com/SBU-TEAM/Jetson-Starter/blob/master/README.md#setup-vnc)
 * [Enable light mode](https://github.com/SBU-TEAM/Jetson-Starter/blob/master/README.md#Enable-light-mode)
+* [Connect to jetson via SSH](https://github.com/SBU-TEAM/Jetson-Starter/blob/master/README.md#Connect-to-jetson-via-SSH)
 
 # Setup SD card
 
@@ -154,3 +155,7 @@ for returning to gdm3 boot mode
         
 >[*more information*](https://jetsonhacks.com/2020/11/07/save-1gb-of-memory-use-lxde-on-your-jetson/)
 
+# Connect to Jetson via SSH
+
+To connect to SSH via LAN, connect a LAN cable to your labtop and jetson nano.Then go to the `Network Setting` of your Ubuntu.Hit the `setting` button of Wired Connection.
+In `Ipv4` section change the form of connection to `share to other computers`.Then restart the connection.You should be able to connect to jetson now.
