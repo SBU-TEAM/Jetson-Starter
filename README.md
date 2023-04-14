@@ -1,12 +1,12 @@
 # Jetson Nano StartUp Levels
 
-* Setup SD card   
-* Boot Jetson   
-* Setup VPN   
-* Update Packages   
-* Check Swap    
-* Install packages    
-* Setup VNC    
+* [Setup SD card](https://github.com/SBU-TEAM/Jetson-Starter/blob/master/README.md#setup-sd-card)
+* [Boot Jetson](https://github.com/SBU-TEAM/Jetson-Starter/blob/master/README.md#boot-jetson)
+* [Setup VPN](https://github.com/SBU-TEAM/Jetson-Starter/blob/master/README.md#setup-vpn)
+* [Update Packages](https://github.com/SBU-TEAM/Jetson-Starter/blob/master/README.md#update-packages)
+* [Check Swap](https://github.com/SBU-TEAM/Jetson-Starter/blob/master/README.md#check-swap)
+* [Install packages](https://github.com/SBU-TEAM/Jetson-Starter/blob/master/README.md#install-packages)
+* [Setup VNC](https://github.com/SBU-TEAM/Jetson-Starter/blob/master/README.md#setup-vnc)
 
 # Setup SD card
 
