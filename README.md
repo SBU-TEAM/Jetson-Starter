@@ -127,6 +127,16 @@ Now create a new `xstartup` file and open it in a text editor, such as `nano`
     
     nano ~/.vnc/xstartup
     
+Then add the following lines to the file
+
+    #!/bin/bash
+    xrdb $HOME/.Xresources
+    startlxde &
+    
+To ensure that the VNC server will be able to use this new startup file properly, you’ll need to make it executable
+
+    chmod +x ~/.vnc/xstartup
+    
 
 # Enable light mode
 
