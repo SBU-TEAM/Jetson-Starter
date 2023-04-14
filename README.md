@@ -96,6 +96,38 @@ open vscode after installation
 
 # Setup VNC
 
+Update packages links with `apt`
+
+    sudo apt update
+ 
+Install Xfce along with the `xfce4-goodies` package, which contains a few enhancements for the desktop environment
+ 
+    sudo apt install xfce4 xfce4-goodies
+    
+Once that installation completes, install the `TightVNC` server
+
+    sudo apt install tightvncserver
+    
+Run the vncserver command to set a VNC access password(The password must be between six and eight characters long)
+
+    vncserver
+    
+Once you verify the password, you’ll have the option to create a view-only password: answer `no`
+
+The password can be changed
+
+        vncpasswd
+
+Before you modify the `xstartup` file, back up the original
+
+
+    mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
+    
+Now create a new `xstartup` file and open it in a text editor, such as `nano`
+    
+    nano ~/.vnc/xstartup
+    
+
 # Enable light mode
 
 Lightdm boot mode or `lxde` (Lightweight X11 Desktop Environment) will save 1Gb of RAM.
